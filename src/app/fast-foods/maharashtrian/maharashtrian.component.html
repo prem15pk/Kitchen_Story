@@ -1,0 +1,26 @@
+<div class="container" style="text-align: center;">
+    
+    <h2>Maharashtrian Breakfast by <b style="color: chartreuse;">{{company}}</b></h2>
+    <br><br>
+
+    <div>
+        <img id="wadapav" src="../../../assets/Images/FastFood/Maharashtrian/wadapav.jpg" ><br>
+        <h3>Puneri Wadapav - Rs 20.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem1(item1.value)" placeholder="Add more" #item1>
+        
+    </div>
+    <br>
+    <h4>Total : Rs.{{wammount}}</h4> 
+    
+    <hr>
+
+    <div>
+        <img id="khichadi" src="../../../assets/Images/FastFood/Maharashtrian/Khichadi.webp">
+        <h3>Shabudana Khichadi - Rs 40.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem2(item2.value)" placeholder="Add more" #item2>
+
+    </div><br>
+    <h4>Total : Rs.{{sammount}}</h4>
+    <hr>
+</div>
+<router-outlet></router-outlet>

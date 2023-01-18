@@ -1,0 +1,35 @@
+<div class="container" style="text-align: center;">
+    
+    <h2>Chinese Breakfast by <b style="color: chartreuse;">{{company}}</b></h2>
+    <br><br>
+
+    <div>
+        <img id="CornNoodles" src="../../../assets/Images/FastFood/Chinese/CornNoodles.jpg" ><br>
+        <h3>Chinese Corn Noodles - Rs 150.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem1(item1.value)" placeholder="Add more" #item1>
+        
+    </div>
+    <br>
+    <h4>Total : Rs.{{CornNoodles_ammount}}</h4>
+    <hr>
+
+    <div>
+        <img id="Sizzlers" src="../../../assets/Images/FastFood/Chinese/Sizzlers.jpg" ><br>
+        <h3>Special Sizzlers - Rs 250.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem2(item2.value)" placeholder="Add more" #item2>
+        
+    </div>
+    <br>
+    <h4>Total : Rs.{{Sizzlers_ammount}}</h4>
+    <hr>
+
+    <div>
+        <img id="hakka" src="../../../assets/Images/FastFood/Chinese/szechwan-vegetable-hakka-noodles.webp">
+        <h3>Szechwan Hakka Noodles - Rs 120.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem3(item3.value)" placeholder="Add more" #item3>
+
+    </div><br>
+    <h4>Total : Rs.{{hakka_ammount}}</h4>
+    <hr>
+</div>
+<router-outlet></router-outlet>

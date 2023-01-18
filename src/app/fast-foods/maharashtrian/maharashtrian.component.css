@@ -1,0 +1,40 @@
+#wadapav
+{
+    width: 300px;
+    border-radius: 20px;
+}
+#khichadi
+{
+    width: 300px;
+    border-radius: 20px;
+}
+#btn
+{
+    background-color:darkorange;
+    border: none;
+    border-radius: 10;
+    padding: 5px;
+}
+h2
+{
+    color: chocolate;
+    border: 5px;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    margin-left: 200px;
+    margin-right: 200px ;
+    padding: 20px;
+}
+h3
+{
+    color: chocolate;
+}
+h4
+{
+    color:burlywood;
+   
+}
+h6
+{
+    color: chocolate;
+}

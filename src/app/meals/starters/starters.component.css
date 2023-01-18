@@ -1,0 +1,39 @@
+#kabab
+{
+    width: 300px;
+    border-radius: 20px;
+}
+#cripsy
+{
+    width: 300px;
+    border-radius: 20px;
+}
+#Paneer
+{
+    width: 300px;
+    border-radius: 20px;
+}
+
+h2
+{
+    color: chocolate;
+    border: 5px;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    margin-left: 200px;
+    margin-right: 200px ;
+    padding: 20px;
+}
+h3
+{
+    color: chocolate;
+}
+h4
+{
+    color:burlywood;
+   
+}
+h6
+{
+    color: chocolate;
+}

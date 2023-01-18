@@ -1,0 +1,35 @@
+<div class="container" style="text-align: center;">
+    
+    <h2>Tasty Dinner by <b style="color: chartreuse;">{{company}}</b></h2>
+    <br><br>
+
+    <div>
+        <img id="GujratiSpecial" src="../../../assets/Images/Meal/Dinner/GujratiSpecial.jpg" ><br>
+        <h3>Gujrati Special Thali - Rs 150.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem1(item1.value)" placeholder="Add more" #item1>
+        
+    </div>
+    <br>
+    <h4>Total : Rs.{{GujratiSpecial_ammount}}</h4>
+    <hr>
+
+    <div>
+        <img id="MaharajaSpecial" src="../../../assets/Images/Meal/Dinner/MaharajaSpecial.jpg" ><br>
+        <h3>Maharaja Special Thali - Rs 120.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem2(item2.value)" placeholder="Add more" #item2>
+        
+    </div>
+    <br>
+    <h4>Total : Rs.{{MaharajaSpecial_ammount}}</h4>
+    <hr>
+
+    <div>
+        <img id="RajastaniSpecial" src="../../../assets/Images/Meal/Dinner/RajastaniSpecial.jpg">
+        <h3>Rajastani Special Thali - Rs 100.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem3(item3.value)" placeholder="Add more" #item3>
+
+    </div><br>
+    <h4>Total : Rs.{{RajastaniSpecial_ammount}}</h4>
+    <hr>
+</div>
+<router-outlet></router-outlet>

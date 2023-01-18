@@ -1,0 +1,35 @@
+<div class="container" style="text-align: center;">
+    
+    <h2>Yummy Starters by <b style="color: chartreuse;">{{company}}</b></h2>
+    <br><br>
+
+    <div>
+        <img id="kabab" src="../../../assets/Images/Meal/Starters/chicken-fish-tikka-kabab-indian-veg-starter-pune-india-chicken-fish-tikka-kabab-indian-veg-starter-pune-112001850.jpg" ><br>
+        <h3>Chicken Fish Tikka Kabab - Rs 150.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem1(item1.value)" placeholder="Add more" #item1>
+        
+    </div>
+    <br>
+    <h4>Total : Rs.{{kabab_ammount}}</h4>
+    <hr>
+
+    <div>
+        <img id="cripsy" src="../../../assets/Images/Meal/Starters/crispy-veg-chilly-pepper-india-89624853.jpg" ><br>
+        <h3>Crispy Veg Chilly Paper - Rs 120.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem2(item2.value)" placeholder="Add more" #item2>
+        
+    </div>
+    <br>
+    <h4>Total : Rs.{{cripsy_ammount}}</h4>
+    <hr>
+
+    <div>
+        <img id="Paneer" src="../../../assets/Images/Meal/Starters/paneer-manchurian-sauce-chopsticks-indian-veg-starter-cottage-cheese-manchurianthis-snack-prepared-celery-red-171493931.jpg">
+        <h3>Paneer Manchurian Chopsticks - Rs 100.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem3(item3.value)" placeholder="Add more" #item3>
+
+    </div><br>
+    <h4>Total : Rs.{{Paneer_ammount}}</h4>
+    <hr>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,35 @@
+<div class="container" style="text-align: center;">
+    
+    <h2>Dietary Breakfast by <b style="color: chartreuse;">{{company}}</b></h2>
+    <br><br>
+
+    <div>
+        <img id="appetizing" src="../../../assets/Images/FastFood/Diet/appetizing-healthy-rice.webp" ><br>
+        <h3>Appetizing Healthy Rice - Rs 150.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem1(item1.value)" placeholder="Add more" #item1>
+        
+    </div>
+    <br>
+    <h4>Total : Rs.{{a_ammount}}</h4>
+    <hr>
+
+    <div>
+        <img id="dietary" src="../../../assets/Images/FastFood/Diet/dietary-salad.webp" ><br>
+        <h3>Dietary Salad - Rs 120.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem2(item2.value)" placeholder="Add more" #item2>
+        
+    </div>
+    <br>
+    <h4>Total : Rs.{{d_ammount}}</h4>
+    <hr>
+
+    <div>
+        <img id="russian" src="../../../assets/Images/FastFood/Diet/russian-salad.webp">
+        <h3>Russsian Salad - Rs 100.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem3(item3.value)" placeholder="Add more" #item3>
+
+    </div><br>
+    <h4>Total : Rs.{{r_ammount}}</h4>
+    <hr>
+</div>
+<router-outlet></router-outlet>

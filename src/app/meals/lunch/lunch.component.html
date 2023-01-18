@@ -1,0 +1,35 @@
+<div class="container" style="text-align: center;">
+    
+    <h2>Tasty Lunch by <b style="color: chartreuse;">{{company}}</b></h2>
+    <br><br>
+
+    <div>
+        <img id="BahubaliThali" src="../../../assets/Images/Meal/Lunch/BahubaliThali.jpg" ><br>
+        <h3>Bahubali Veg Thali - Rs 150.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem1(item1.value)" placeholder="Add more" #item1>
+        
+    </div>
+    <br>
+    <h4>Total : Rs.{{BahubaliThali_ammount}}</h4>
+    <hr>
+
+    <div>
+        <img id="DaalBaati" src="../../../assets/Images/Meal/Lunch/DaalBaati.jpg" ><br>
+        <h3>Daal Baati Churma - Rs 120.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem2(item2.value)" placeholder="Add more" #item2>
+        
+    </div>
+    <br>
+    <h4>Total : Rs.{{DaalBaati_ammount}}</h4>
+    <hr>
+
+    <div>
+        <img id="MaharashtraSpecial" src="../../../assets/Images/Meal/Lunch/MaharashtraSpecial.jpg">
+        <h3>Maharaja Special Thali - Rs 100.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem3(item3.value)" placeholder="Add more" #item3>
+
+    </div><br>
+    <h4>Total : Rs.{{MaharashtraSpecial_ammount}}</h4>
+    <hr>
+</div>
+<router-outlet></router-outlet>

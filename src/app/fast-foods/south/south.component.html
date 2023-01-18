@@ -1,0 +1,44 @@
+<div class="container" style="text-align: center;">
+    
+    <h2>South Indian Breakfast by <b style="color: chartreuse;">{{company}}</b></h2>
+    <br><br>
+
+    <div>
+        <img id="Dosa" src="../../../assets/Images/FastFood/South/Dosa Idli.jpg" ><br>
+        <h3>Dosa Idli - Rs 150.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem1(item1.value)" placeholder="Add more" #item1>
+        
+    </div>
+    <br>
+    <h4>Total : Rs.{{Idli_ammount}}</h4>
+    <hr>
+
+    <div>
+        <img id="IdliSambar" src="../../../assets/Images/FastFood/South/IdliSambar.jpg" ><br>
+        <h3>Idli Sambar - Rs 80.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem2(item2.value)" placeholder="Add more" #item2>
+        
+    </div>
+    <br>
+    <h4>Total : Rs.{{IdliSambar_ammount}}</h4>
+    <hr>
+
+    <div>
+        <img id="combo" src="../../../assets/Images/FastFood/South/south-indian-masala-dosa-uttapam-idli-vada-sambar-semolina-halwa-upma-served-banana-leaf.webp">
+        <h3>South Special Combo - Rs 200.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem3(item3.value)" placeholder="Add more" #item3>
+
+    </div><br>
+    <h4>Total : Rs.{{combo_ammount}}</h4>
+    <hr>
+
+    <div>
+        <img id="WadaSambar" src="../../../assets/Images/FastFood/South/Wada Sambar.jpg">
+        <h3>Special Wada Sambar - Rs 120.00</h3>
+        <input style="width: min-content;" type="number" min="0" (click)="addItem4(item4.value)" placeholder="Add more" #item4>
+
+    </div><br>
+    <h4>Total : Rs.{{WadaSambar_ammount}}</h4>
+    <hr>
+</div>
+<router-outlet></router-outlet>
